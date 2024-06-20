@@ -285,8 +285,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @AatanK_GHOST
-Official Channel :- https://t.me/R2RHACKSOffICIAL
+Buy From :- @INDRANIL HACKER
+Official Channel :- https://t.me/BLACKHOLEVIPGROUP
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -303,7 +303,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.
 🤖Try To Run This Command : /help 
-✅Join :- https://t.me/R2RHACKSOffICIAL'''
+✅Join :- https://t.me/BLACKHOLEVIPGROUP'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -331,7 +331,7 @@ Day-->250 Rs ✔️
 Week-->800 Rs ✔️
 Month-->1600 Rs ✔️
 
-Dm to Buy @AaTanK_GHOST
+Dm to Buy @INDRANIL HACKER
 '''
     bot.reply_to(message, response)
 
